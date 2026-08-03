@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-style: Roboto;
+}
+
+.first {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+}
