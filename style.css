@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
     font-style: Roboto;
 }
 
@@ -9,6 +10,7 @@ body {
     flex: auto;
     flex-direction: column;
     background-color: #1F2937;
+    
 }
 
 .header {
@@ -16,6 +18,13 @@ body {
     flex: auto;
     justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
@@ -27,15 +36,37 @@ ul {
 .hero {
     display: flex;
     justify-content: center;
+    padding: 100px 200px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 1px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.left {
+    display: flex;
+    flex: auto;
+    background-color: #3882F6;
 }
 
 .right {
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
 }
