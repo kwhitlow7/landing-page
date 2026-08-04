@@ -121,3 +121,30 @@ button.left {
     flex: auto;
     text-align: center;
 }
+
+/* This is the styling for the inspire section */
+
+.inspire {
+    background-color: #E5E7EB;
+}
+
+.inspire.box {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.credit {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+}
+
