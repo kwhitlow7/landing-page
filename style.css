@@ -7,6 +7,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* This is the styling for the first box */
+
 .first {
     display: flex;
     flex: auto;
@@ -78,3 +80,6 @@ button.left {
     align-items: center;
     background-color: gray;
 }
+
+/* This is the styling for the cards section */
+
