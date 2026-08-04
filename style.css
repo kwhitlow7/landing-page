@@ -150,6 +150,31 @@ button.left {
 
 /* This is the styling for the signup section */
 
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 300px;
+    border-radius: 12px;
+}
+
+.signup.left {
+    margin: 0px;
+    padding: 50px 100px;
+    display: flex;
+    flex: 3;
+    justify-content: flex-start;
+}
+
+.signup.right {
+    margin: 0px;
+    display: flex;
+    flex: 2;
+}
+
+.action.text {
+    text-align: left;
+}
+
 
 /* This is the styling for the footer */
 
