@@ -1,8 +1,10 @@
+@import url('https://googleapis.com');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    font-style: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .first {
@@ -18,8 +20,7 @@ body {
     flex: auto;
     justify-content: space-between;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 20px 300px;
 }
 
 .logo {
@@ -36,7 +37,8 @@ ul {
 .hero {
     display: flex;
     justify-content: center;
-    padding: 100px 200px;
+    padding: 100px 300px;
+    gap: 48px;
 }
 
 .left {
@@ -52,7 +54,7 @@ ul {
     font-weight: 900;
 }
 
-.subtext {
+.subtext, li{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -61,6 +63,10 @@ button.left {
     display: flex;
     flex: auto;
     background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .right {
@@ -68,5 +74,5 @@ button.left {
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: gray;
 }
