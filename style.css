@@ -148,3 +148,16 @@ button.left {
     font-weight: 600;
 }
 
+/* This is the styling for the signup section */
+
+
+/* This is the styling for the footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+}
